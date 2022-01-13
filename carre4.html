@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <style>
+            body{
+            box-sizing: border-box;
+            background-color: #EEE;
+            }
+            #container{
+            width: 600px;
+            height: 600px;
+            border: 1px solid #CCC;
+            background-color: #FFF;
+            position: relative;
+            margin: 0 auto;
+            }
+            .carre{
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                text-align: center;
+            }
+            #rouge{
+            width: 200px;
+            height: 200px;
+            background-color: #F00;
+            }
+            #vert{
+            width: 100px;
+            height: 100px;
+            background-color: #0F0;
+            bottom: 150px;
+            right: 150px;
+            }
+            #bleu{
+            width: 50px;
+            height: 50px;
+            background-color: #00F;
+            bottom: 225px;
+            right: 225px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="bleu" class="carre">BLEU</div>
+            <div id="vert" class="carre">VERT</div>
+            <div id="rouge" class="carre">ROUGE</div>
+        </div>
+    </body>
+</html>
